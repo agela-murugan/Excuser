@@ -23,3 +23,26 @@
   background-color: #a26769 !important;
   color: white !important;
 }
+
+.generate-button {
+  background-color: green !important;
+  color: white !important;
+  display: block !important;
+  margin: 2rem auto !important;
+  width: 40%;
+  height: 4rem !important;
+  border-radius: 1rem !important;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+}
+
+.excuse {
+  font-size: 1.5rem;
+}
+
+.clown-image {
+  width: 5%;
+  position: relative;
+  padding: 1rem;
+  top: 30px;
+}
