@@ -1,0 +1,25 @@
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 3rem;
+}
+
+.select-category {
+  display: block;
+  margin: 1rem;
+}
+
+.category-button {
+  margin: 0.5rem !important;
+  border-radius: 1.2rem !important;
+  border-color: #a26769 !important;
+  color: #a26769 !important;
+  font-weight: bold !important;
+  border-width: 0.1rem !important;
+}
+
+.category-button:hover,
+.category-button-selected {
+  background-color: #a26769 !important;
+  color: white !important;
+}
