@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/excuser/static/css/main.6dab067f.css",
+    "main.js": "/excuser/static/js/main.da13092b.js",
+    "static/media/clown.webp": "/excuser/static/media/clown.bae54af6f1ad95ad89a7.webp",
+    "index.html": "/excuser/index.html",
+    "main.6dab067f.css.map": "/excuser/static/css/main.6dab067f.css.map",
+    "main.da13092b.js.map": "/excuser/static/js/main.da13092b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dab067f.css",
+    "static/js/main.da13092b.js"
+  ]
+}
