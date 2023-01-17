@@ -1,71 +1,70 @@
 .heading {
-  font-size: 40px;
-  font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .select-category {
-  display: block;
-  margin: 1rem;
+    display: block;
+    margin: 1rem;
 }
 
 .category-button {
-  margin: 0.5rem !important;
-  border-radius: 1.2rem !important;
-  border-color: #a26769 !important;
-  color: #a26769 !important;
-  font-weight: bold !important;
-  border-width: 0.1rem !important;
+    margin: 0.5rem !important;
+    border-radius: 1.2rem !important;
+    border-color: #a26769 !important;
+    color: #a26769 !important;
+    font-weight: bold !important;
+    border-width: 0.1rem !important;
 }
 
-.category-button:hover,
-.category-button-selected {
-  background-color: #a26769 !important;
-  color: white !important;
+.category-button:hover .category-button-selected {
+    background-color: #a26769 !important;
+    color: white !important;
 }
 
 .generate-button {
-  background-color: green !important;
-  color: white !important;
-  display: block !important;
-  margin: 0rem auto !important;
-  width: fit-content;
-  border-radius: 1rem !important;
-  font-size: 1.2rem !important;
-  font-weight: bold !important;
-  padding: 1rem !important;
+    background-color: green !important;
+    color: white !important;
+    display: block !important;
+    margin: 0rem auto !important;
+    width: fit-content;
+    border-radius: 1rem !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    padding: 1rem !important;
 }
 
 .excuse {
-  font-size: 1.5rem;
-  margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 .clown-image {
-  width: 3%;
-  position: relative;
-  top: 0.4rem;
-  margin: 0 0.4rem;
+    width: 3%;
+    position: relative;
+    top: 0.4rem;
+    margin: 0 0.4rem;
 }
 
 .root {
-  padding: 10px;
+    padding: 10px;
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-  .clown-image {
-    width: 4%;
-  }
+    .clown-image {
+        width: 4%;
+    }
 
-  .excuse {
-    font-size: 1.2rem;
-  }
+    .excuse {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 426px) {
-  .clown-image {
-    width: 7%;
-  }
-  .excuse {
-    font-size: 1.2rem;
-  }
+    .clown-image {
+        width: 7%;
+    }
+    .excuse {
+        font-size: 1.2rem;
+    }
 }
