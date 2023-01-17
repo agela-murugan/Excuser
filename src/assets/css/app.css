@@ -37,15 +37,35 @@
 
 .excuse {
   font-size: 1.5rem;
+  margin-top: 2rem;
 }
 
 .clown-image {
-  width: 5%;
+  width: 3%;
   position: relative;
-  padding: 1rem;
-  top: 30px;
+  top: 0.4rem;
+  margin: 0 0.4rem;
 }
 
 .root {
   padding: 10px;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .clown-image {
+    width: 4%;
+  }
+
+  .excuse {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .clown-image {
+    width: 7%;
+  }
+  .excuse {
+    font-size: 1.2rem;
+  }
 }
