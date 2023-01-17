@@ -1,7 +1,6 @@
 .heading {
   font-size: 40px;
   font-weight: bold;
-  margin: 3rem;
 }
 
 .select-category {
@@ -28,12 +27,12 @@
   background-color: green !important;
   color: white !important;
   display: block !important;
-  margin: 2rem auto !important;
-  width: 40%;
-  height: 4rem !important;
+  margin: 0rem auto !important;
+  width: fit-content;
   border-radius: 1rem !important;
-  font-size: 1.5rem !important;
+  font-size: 1.2rem !important;
   font-weight: bold !important;
+  padding: 1rem !important;
 }
 
 .excuse {
@@ -45,4 +44,8 @@
   position: relative;
   padding: 1rem;
   top: 30px;
+}
+
+.root {
+  padding: 10px;
 }
