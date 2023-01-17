@@ -10,7 +10,9 @@ const Categories = () => {
     const [excuse, setExcuse] = useState("");
 
     const renderCategories = () => {
+        console.log("selectedCategory: ", selectedCategory);
         return categoryNames.map((category, index) => {
+            console.log("category: ", category.name);
             let selectedClass = "";
             if (category.name === selectedCategory) {
                 selectedClass = "category-button-selected";

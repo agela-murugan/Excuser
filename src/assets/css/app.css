@@ -17,7 +17,8 @@
     border-width: 0.1rem !important;
 }
 
-.category-button:hover .category-button-selected {
+.category-button:hover,
+.category-button-selected {
     background-color: #a26769 !important;
     color: white !important;
 }
